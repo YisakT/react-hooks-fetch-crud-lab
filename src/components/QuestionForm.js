@@ -22,7 +22,8 @@ function QuestionForm(props) {
     console.log(formData);
   }
 
-  return (
+
+return (
     <section>
       <h1>New Question</h1>
       <form onSubmit={handleSubmit}>
