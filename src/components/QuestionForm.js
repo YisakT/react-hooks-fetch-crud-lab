@@ -156,7 +156,8 @@ function QuestionForm({ onAddQuestion }) {
       ],
       correctIndex: formData.correctIndex
     };
-
+    console.log("Submitting form data: ", formDataObject);
+    
     fetch("http://localhost:4000/questions", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
